@@ -1,6 +1,6 @@
 # GRADE 12 IT PAT 2020 - Home Affairs System
 
-You can find the files on my google drive: https://drive.google.com/drive/folders/15GQAnlBpw5esaAMstPHUhA_nnxFR_T4w?usp=sharing
+You can find the files on my google drive from phase 2: https://drive.google.com/drive/folders/15GQAnlBpw5esaAMstPHUhA_nnxFR_T4w?usp=sharing
 
 In 2020, my Information Technology Practical Assessment Task (IT PAT) was aimed at developing an online system to streamline services at Home Affairs. The objective was to reduce the time applicants spend in long queues, improve the efficiency of processing Smart IDs, Passport Renewals, and Unabridged Birth Certificates, and make it easier for staff to manage these processes. This system provides distinct roles for applicants, staff members, and administrators, all connected through a user-friendly interface and supported by a robust database. Through phases 1, 2, and 4 of the project, I developed, tested, and refined this system, ensuring it met user needs and operated efficiently.
 
@@ -19,6 +19,10 @@ Phase 2 focused on the **implementation of key functions and data validation**. 
 The **Database Manager Class** provided by my IT teacher was crucial in Phase 2. This externally sourced class allowed the program to connect to and manipulate the Microsoft Access database tables. The manager classes, including `ApplicantManager` and `BookingManager`, interacted with the database to perform essential functions such as retrieving applicant information, storing bookings, and managing staff details. The use of this class made the system's data management robust and efficient, ensuring that information could be accessed and modified without issues.
 
 Phase 2 also saw the development of several **interface screens** for booking Smart IDs, checking document uploads, and verifying applicant information. For example, when an applicant booked a Smart ID, the program ensured that necessary documents were uploaded, and error messages were displayed if something was missing. Each step of the process was validated, ensuring that incorrect or missing data was flagged immediately, and users were prompted to provide the required information before proceeding. This was a critical step in ensuring the program’s accuracy and reliability.
+
+### Phase 3: Coding
+
+Phase 3 contained the code used for each application process, including `ActionPerformedScreen`, `AddStaffMember`, `AdministratorHomeScreen`, `Applicant`, `ApplicantManager`, `Appointment`, `AppointmentManager`, `Category`, `DatabaseManager` and `EditDetails`. This coding shows how I handle adding a new staff member, dealing with an applicant, etc.
 
 ### Phase 4: Advanced Features and Testing
 
